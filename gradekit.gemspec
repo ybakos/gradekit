@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency "ruby-debug19"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "rubyzip"
 end
