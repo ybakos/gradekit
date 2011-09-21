@@ -14,7 +14,7 @@ Gradekit is written in Ruby 1.9.2 and relies on some gems and a working installa
 
 To verify that your environment is ready to conduct grading, execute the +check+ workflow.
 
-  gradekit check
+    gradekit check
 
 Executing that workflow should tell you that everything is ok, or tell you what dependencies are missing from your environment.
 
@@ -22,7 +22,7 @@ Executing that workflow should tell you that everything is ok, or tell you what 
 
 Download an assignment "amalgamation" .zip file from blackboard to your working directory. Next, start the grading workflow:
 
-  gradekit grade ##_assignmentName
+    gradekit grade ##_assignmentName
 
 When complete, you should see a new Sublime Text window whose sidebar contains a directory called +students+ and a file called <tt>##_assignmentName.gradesheet.txt</tt>.
 
