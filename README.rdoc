@@ -6,4 +6,4 @@ A toolkit for accelerating the process of grading student programming assignment
 
 TODO
 
-&copy; 2011 Yong Joseph Bakos. All rights reserved.
+Copyright (c) 2011 Yong Joseph Bakos. All rights reserved.
