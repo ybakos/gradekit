@@ -5,11 +5,11 @@ require "gradekit/version"
 Gem::Specification.new do |s|
   s.name        = "gradekit"
   s.version     = Gradekit::VERSION
-  s.authors     = ["Yong Bakos"]
+  s.authors     = ["Yong Joseph Bakos"]
   s.email       = ["ybakos@humanoriented.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://humanoriented.com"
+  s.summary     = "CSCI261 grading toolkit"
+  s.description = "Grading automation toolkit for CSCI261 Programming Concepts at the Colorado School of Mines."
 
   s.rubyforge_project = "gradekit"
 
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
+  s.add_development_dependency "ruby-debug19"
   # s.add_runtime_dependency "rest-client"
 end
