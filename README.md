@@ -7,7 +7,7 @@ A toolkit for accelerating the process of grading student programming assignment
 Gradekit is written in Ruby 1.9.2 and relies on some gems and a working installation of [Sublime Text 2](http://www.sublimetext.com/2) with the <tt>sublime_text</tt> executable in your <tt>PATH</tt>. I recommend using [rvm](http://beginrescueend.com/) to establish your ruby environment and creating a gemset specifically for the gradekit.
 
 * Install [rvm](http://beginrescueend.com/), add the <tt>rvm</tt> executable to your path, install ruby 1.9.2 with rvm, and create a gemset called <tt>gradekit</tt>.
-* Install [Sublime Text 2](http://www.sublimetext.com/2) and add the <tt>sublime_text</tt> executable to your +PATH+.
+* Install [Sublime Text 2](http://www.sublimetext.com/2) and add the <tt>sublime_text</tt> executable to your <tt>PATH</tt>.
 * Create a directory, say, <tt>grading</tt>, within which you intend to conduct your grading work.
 * Create the file <tt>grading/.rvmrc</tt> that contains the line `rvm use 1.9.2@gradekit`.
 * From within your <tt>grading</tt> directory, install the bundler gem and the gradekit gem.
