@@ -21,7 +21,7 @@ Executing that workflow should tell you that everything is ok, or tell you what 
 
 ## Quick Start
 
-Download an assignment "amalgamation" .zip file from blackboard to your working directory. Next, start the grading workflow:
+Download an assignment "amalgamation" .zip file from [blackboard](http://blackboard.mines.edu) to your working directory. Next, start the grading workflow:
 
     gradekit grade ##_assignmentName
 
@@ -29,7 +29,7 @@ When complete, you should see a new Sublime Text window whose sidebar contains a
 
 ## How to Grade
 
-The goal of Gradekit is to accelerate, not automate, the end-to-end grading process.
+The goal of Gradekit is to accelerate, not automate, the entire grading process.
 
 TODO
 
