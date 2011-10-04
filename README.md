@@ -34,22 +34,22 @@ The goal of Gradekit is to accelerate, not automate, the entire grading process.
 * Crack open a beer.
 * Execute the gradekit <tt>grade</tt> workflow.
 * Pay attention to the output generated on the console
-** Make a note of things like "Bad Submission," "Could not compile," or "Execute Manually." In each case, you will need to manually inspect the student's submission.
+  * Make a note of things like "Bad Submission," "Could not compile," or "Execute Manually." In each case, you will need to manually inspect the student's submission.
 * Review the gradesheet displayed in the Sublime Text 2 window.
-** Perfect score? Review the student's code and provide feedback regarding style.
-** Bad submission? Inspect the student's submission. If there is a relevant <tt>cpp</tt> file containing code for the assignment, then manually review, compile, execute, and grade manually.
-*** <tt>make students/username/filename_base</tt> to compile
-*** <tt>students/username/filename_base</tt> to execute
-*** <tt>sublime_text students/username/filename_base.cpp</tt> to view the code
-** Couldn't compile? Try compiling manually, then execute, review the code, and grade manually.
-*** <tt>make students/username/filename_base</tt>
-*** <tt>students/username/filename_base</tt> to execute
-*** <tt>sublime_text students/username/filename_base.cpp</tt> to view the code
-** Need to execute manually? This is often due to the student's program not terminating after being executed with input provided by the gradekit. You must manually execute and grade the assignment.
-*** <tt>students/username/filename_base</tt> to execute
-*** <tt>sublime_text students/username/filename_base.cpp</tt> to view the code
-** Were any items marked 0 or ? on the student's score card? Inspect the code and attempt to award back partial credit, where applicable.
-** Update the total points as necessary, keeping in mind lateness deductions where relevant.
+  * Perfect score? Review the student's code and provide feedback regarding style.
+  * Bad submission? Inspect the student's submission. If there is a relevant <tt>cpp</tt> file containing code for the assignment, then manually review, compile, execute, and grade manually.
+    * <tt>make students/username/filename_base</tt> to compile
+    * <tt>students/username/filename_base</tt> to execute
+    * <tt>sublime_text students/username/filename_base.cpp</tt> to view the code
+  * Couldn't compile? Try compiling manually, then execute, review the code, and grade manually.
+    * <tt>make students/username/filename_base</tt>
+    * <tt>students/username/filename_base</tt> to execute
+    * <tt>sublime_text students/username/filename_base.cpp</tt> to view the code
+  * Need to execute manually? This is often due to the student's program not terminating after being executed with input provided by the gradekit. You must manually execute and grade the assignment.
+    * <tt>students/username/filename_base</tt> to execute
+    * <tt>sublime_text students/username/filename_base.cpp</tt> to view the code
+  * Were any items marked 0 or ? on the student's score card? Inspect the code and attempt to award back partial credit, where applicable.
+  * Update the total points as necessary, keeping in mind lateness deductions where relevant.
 * Once all student scores are updated, methodically enter the grades in Blackboard's "Grade Center." After entering a student's score, paste the contents of the students scorecard as a "Quick comment."
 * Crack open another beer.
 
