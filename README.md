@@ -1,12 +1,12 @@
 # Gradekit [![Build Status](https://secure.travis-ci.org/ybakos/gradekit.png)](http://travis-ci.org/ybakos/gradekit)
 
-
 A toolkit for accelerating the process of grading student programming assignments for [CSCI261 Programming Concepts](http://mines.humanoriented.com/261) at the [Colorado School of Mines](http://mines.edu).
 
 ## Setup & Dependencies
 
-Gradekit is written in Ruby 1.9.2 and relies on some gems and a working installation of [Sublime Text 2](http://www.sublimetext.com/2) with the <tt>sublime_text</tt> executable in your <tt>PATH</tt>. I recommend using [rvm](http://beginrescueend.com/) to establish your ruby environment and creating a gemset specifically for the gradekit.
+Gradekit is written in Ruby 1.9.2 and relies <tt>make</tt>, some Ruby gems and a working installation of [Sublime Text 2](http://www.sublimetext.com/2) with the <tt>sublime_text</tt> executable in your <tt>PATH</tt>. I recommend using [rvm](http://beginrescueend.com/) to establish your ruby environment and creating a gemset specifically for the gradekit.
 
+* Ensure you have the <tt>gcc</tt> suite of tools (<tt>make</tt>, etc) installed on your system and in your <tt>PATH</tt>.
 * Install [rvm](http://beginrescueend.com/), add the <tt>rvm</tt> executable to your path, install ruby 1.9.2 with rvm, and create a gemset called <tt>gradekit</tt>.
 * Install [Sublime Text 2](http://www.sublimetext.com/2) and add the <tt>sublime_text</tt> executable to your <tt>PATH</tt>.
 * Create a directory, say, <tt>grading</tt>, within which you intend to conduct your grading work.
@@ -17,7 +17,7 @@ To verify that your environment is ready to conduct grading, execute the <tt>che
 
     gradekit check
 
-Executing that workflow should tell you that everything is ok, or tell you what dependencies are missing from your environment.
+Executing that workflow should tell you that everything is ok, or tell you what dependencies are missing from your environment. This gradekit is only for OSX and Linux operating systems; it will not run out of the box on Windows.
 
 ## Quick Start
 
