@@ -21,5 +21,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "ruby-debug19"
   s.add_development_dependency "rake"
   s.add_development_dependency "turn"
+  s.add_development_dependency "minitest"
   s.add_runtime_dependency "rubyzip"
 end

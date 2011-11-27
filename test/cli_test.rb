@@ -1,6 +1,6 @@
 require_relative 'test_helper'
 
-class CliTest < Test::Unit::TestCase
+class CliTest < MiniTest::Unit::TestCase
 
   def test_truth
     assert true
